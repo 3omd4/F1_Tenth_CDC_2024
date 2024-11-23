@@ -1,0 +1,58 @@
+[0.000000] (-) TimerEvent: {}
+[0.000040] (autodrive_f1tenth) JobQueued: {'identifier': 'autodrive_f1tenth', 'dependencies': OrderedDict()}
+[0.000060] (autodrive_f1tenth) JobStarted: {'identifier': 'autodrive_f1tenth'}
+[0.099612] (-) TimerEvent: {}
+[0.175248] (autodrive_f1tenth) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/autodrive_f1tenth', 'build', '--build-base', '/home/autodrive_devkit/build/autodrive_f1tenth/build', 'install', '--record', '/home/autodrive_devkit/build/autodrive_f1tenth/install.log', '--install-scripts', '$base/lib/autodrive_f1tenth', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/autodrive_devkit/src/autodrive_devkit', 'env': {'HOME': '/root', 'OLDPWD': '/', 'ROS_DISTRO': 'humble', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'LC_ALL': 'C.UTF-8', 'PWD': '/home/autodrive_devkit/build/autodrive_f1tenth', 'COLCON': '1', 'PYTHONPATH': '/home/autodrive_devkit/build/autodrive_f1tenth/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages:'}, 'shell': False}
+[0.199710] (-) TimerEvent: {}
+[0.238074] (autodrive_f1tenth) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[0.238153] (autodrive_f1tenth) StderrLine: {'line': b'  warnings.warn(\n'}
+[0.241052] (autodrive_f1tenth) StdoutLine: {'line': b'running egg_info\n'}
+[0.241282] (autodrive_f1tenth) StdoutLine: {'line': b'creating ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info\n'}
+[0.241338] (autodrive_f1tenth) StdoutLine: {'line': b'writing ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/PKG-INFO\n'}
+[0.241418] (autodrive_f1tenth) StdoutLine: {'line': b'writing dependency_links to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/dependency_links.txt\n'}
+[0.241468] (autodrive_f1tenth) StdoutLine: {'line': b'writing entry points to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/entry_points.txt\n'}
+[0.241512] (autodrive_f1tenth) StdoutLine: {'line': b'writing requirements to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/requires.txt\n'}
+[0.241533] (autodrive_f1tenth) StdoutLine: {'line': b'writing top-level names to ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/top_level.txt\n'}
+[0.241570] (autodrive_f1tenth) StdoutLine: {'line': b"writing manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'\n"}
+[0.242212] (autodrive_f1tenth) StdoutLine: {'line': b"reading manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'\n"}
+[0.242507] (autodrive_f1tenth) StdoutLine: {'line': b"writing manifest file '../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info/SOURCES.txt'\n"}
+[0.242555] (autodrive_f1tenth) StdoutLine: {'line': b'running build\n'}
+[0.242575] (autodrive_f1tenth) StdoutLine: {'line': b'running build_py\n'}
+[0.242610] (autodrive_f1tenth) StdoutLine: {'line': b'creating /home/autodrive_devkit/build/autodrive_f1tenth/build\n'}
+[0.242664] (autodrive_f1tenth) StdoutLine: {'line': b'creating /home/autodrive_devkit/build/autodrive_f1tenth/build/lib\n'}
+[0.242684] (autodrive_f1tenth) StdoutLine: {'line': b'creating /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[0.242720] (autodrive_f1tenth) StdoutLine: {'line': b'copying autodrive_f1tenth/autodrive_bridge.py -> /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[0.242741] (autodrive_f1tenth) StdoutLine: {'line': b'copying autodrive_f1tenth/__init__.py -> /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[0.242782] (autodrive_f1tenth) StdoutLine: {'line': b'copying autodrive_f1tenth/teleop_keyboard.py -> /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[0.242806] (autodrive_f1tenth) StdoutLine: {'line': b'copying autodrive_f1tenth/config.py -> /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth\n'}
+[0.242851] (autodrive_f1tenth) StdoutLine: {'line': b'running install\n'}
+[0.242979] (autodrive_f1tenth) StdoutLine: {'line': b'running install_lib\n'}
+[0.243220] (autodrive_f1tenth) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth\n'}
+[0.243258] (autodrive_f1tenth) StdoutLine: {'line': b'copying /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/autodrive_bridge.py -> /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth\n'}
+[0.243301] (autodrive_f1tenth) StdoutLine: {'line': b'copying /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/__init__.py -> /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth\n'}
+[0.243340] (autodrive_f1tenth) StdoutLine: {'line': b'copying /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/teleop_keyboard.py -> /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth\n'}
+[0.243376] (autodrive_f1tenth) StdoutLine: {'line': b'copying /home/autodrive_devkit/build/autodrive_f1tenth/build/lib/autodrive_f1tenth/config.py -> /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth\n'}
+[0.243554] (autodrive_f1tenth) StdoutLine: {'line': b'byte-compiling /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth/autodrive_bridge.py to autodrive_bridge.cpython-310.pyc\n'}
+[0.244699] (autodrive_f1tenth) StdoutLine: {'line': b'byte-compiling /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth/__init__.py to __init__.cpython-310.pyc\n'}
+[0.244814] (autodrive_f1tenth) StdoutLine: {'line': b'byte-compiling /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth/teleop_keyboard.py to teleop_keyboard.cpython-310.pyc\n'}
+[0.245133] (autodrive_f1tenth) StdoutLine: {'line': b'byte-compiling /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth/config.py to config.cpython-310.pyc\n'}
+[0.245300] (autodrive_f1tenth) StdoutLine: {'line': b'running install_data\n'}
+[0.245370] (autodrive_f1tenth) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index\n'}
+[0.245414] (autodrive_f1tenth) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index/resource_index\n'}
+[0.245457] (autodrive_f1tenth) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index/resource_index/packages\n'}
+[0.245478] (autodrive_f1tenth) StdoutLine: {'line': b'copying resource/autodrive_f1tenth -> /home/autodrive_devkit/install/autodrive_f1tenth/share/ament_index/resource_index/packages\n'}
+[0.245498] (autodrive_f1tenth) StdoutLine: {'line': b'copying package.xml -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth\n'}
+[0.245549] (autodrive_f1tenth) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch\n'}
+[0.245590] (autodrive_f1tenth) StdoutLine: {'line': b'copying launch/simulator_bringup_rviz.launch.py -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch\n'}
+[0.245611] (autodrive_f1tenth) StdoutLine: {'line': b'copying launch/simulator_bringup_headless.launch.py -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/launch\n'}
+[0.245650] (autodrive_f1tenth) StdoutLine: {'line': b'creating /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/rviz\n'}
+[0.245669] (autodrive_f1tenth) StdoutLine: {'line': b'copying rviz/simulator.rviz -> /home/autodrive_devkit/install/autodrive_f1tenth/share/autodrive_f1tenth/rviz\n'}
+[0.245689] (autodrive_f1tenth) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.246451] (autodrive_f1tenth) StdoutLine: {'line': b'Copying ../../build/autodrive_f1tenth/autodrive_f1tenth.egg-info to /home/autodrive_devkit/install/autodrive_f1tenth/lib/python3.10/site-packages/autodrive_f1tenth-0.1.0-py3.10.egg-info\n'}
+[0.246755] (autodrive_f1tenth) StdoutLine: {'line': b'running install_scripts\n'}
+[0.255236] (autodrive_f1tenth) StdoutLine: {'line': b'Installing autodrive_bridge script to /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth\n'}
+[0.255299] (autodrive_f1tenth) StdoutLine: {'line': b'Installing teleop_keyboard script to /home/autodrive_devkit/install/autodrive_f1tenth/lib/autodrive_f1tenth\n'}
+[0.255340] (autodrive_f1tenth) StdoutLine: {'line': b"writing list of installed files to '/home/autodrive_devkit/build/autodrive_f1tenth/install.log'\n"}
+[0.263481] (autodrive_f1tenth) CommandEnded: {'returncode': 0}
+[0.267315] (autodrive_f1tenth) JobEnded: {'identifier': 'autodrive_f1tenth', 'rc': 0}
+[0.267518] (-) EventReactorShutdown: {}
