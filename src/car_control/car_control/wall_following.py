@@ -79,9 +79,7 @@ def lidar_callback(scan):
     throttle_pub.publish(throttle)
 
 
-
-
-def main(arg = None)
+def main(arg = None):
     global node
     global steering_pub
     global throttle_pub
