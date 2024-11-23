@@ -90,12 +90,13 @@ def main(arg = None):
     throttle_pub= node.create_publisher(Float32, 'autodrive/f1tenth_1/throttle_command', 0)
     lidar_sub=node.create_subscription(LaserScan, 'prev_str_ang', lidar_callback, 0)
 
+    timer = node.create_timer(0.02, timer_callback)
 
     try:
         rclpy.spin(node)
     except KeyboardInterrupt:
-        throttling.publish(Float32(data = 0.0))  # Publish 0 throttle to stop motion
-        steering.publish(Float32(data = 0.0))    # Publish 0 steering to stop steering
+        throttle_pub.publish(Float32(data = 0.0))  # Publish 0 throttle to stop motion
+        steering_pub.publish(Float32(data = 0.0))    # Publish 0 steering to stop steering
     finally:
         node.destroy_timer(timer)
         node.destroy_node()
